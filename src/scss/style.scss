@@ -1,4 +1,2 @@
-* {
-    background-color: red;
-    margin: 0;
-}
+@use "./order_summary/variables/colors";
+@use "./order_summary/variables/typography";
