@@ -6,6 +6,7 @@
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "css-compiler": "sass src/scss/style.scss public/css/style.css",
+        "css-compiler-watch": "sass src/scss/style.scss public/css/style.css --watch",
         "prepare": "husky install"
     },
     "author": "",
