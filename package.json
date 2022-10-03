@@ -4,13 +4,15 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "css-compiler": "sass src/scss/style.scss public/css/style.css"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "css-compiler": "sass src/scss/style.scss public/css/style.css",
+        "prepare": "husky install"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {},
     "devDependencies": {
         "sass": "^1.55.0",
-        "husky": "^8.0.1"
+        "husky": "^8.0.0"
     }
 }
