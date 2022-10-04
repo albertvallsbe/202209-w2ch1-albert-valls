@@ -1,3 +1,23 @@
+@use "../order_summary/variables/colors";
 * {
-    border: 1px solid red;
+    margin: 0;
+    padding: 0;
+}
+
+.order-container {
+    background-color: colors.$very-pale-blue;
+    max-width: 375px;
+}
+
+.information-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    margin: 0 auto;
+    padding: 60px 30px;
+}
+
+.information-main__picture {
+    width: 375px;
 }
